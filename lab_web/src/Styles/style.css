@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to right, #C177FF, #7100CF);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    font-size: 100px;
+    margin: 5px 20px 0px 5px;
+    height: 103px;
+}
+
+.logo2 {
+    margin-left: 40px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.menu {
+    display: inline;
+    list-style: none;
+    margin-top: 108px;
+    margin-bottom: 0px;
+}
+
+.menu li {
+    display: inline;
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.menu li a {
+    color: #000;
+    cursor: pointer;
+    text-underline-offset: 11px;
+    text-decoration-thickness: 3px;
+}
+
+.menu li a:hover {
+    color: #393939;
+    cursor: pointer;
+}
+
+.main {
+    background-image: url('../image/wall2.jpg');
+    padding-bottom: 100px;
+    min-height: 50vh;
+}
+
+footer {
+    background-color: #636363;
+}
+
+.f_text {
+    margin-left: 10px;
+}
+
+.concert {
+    margin: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.concert_block {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.concert_block:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.con_text {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    margin: 15px;
+    justify-content: center;
+}
+
+.con_btns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.con_button {
+    position: relative;
+    margin: 6px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    background: #9e5fd1;
+    padding: 4px 8px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.con_button:hover {
+    background: #b78adc;
+}
+
+.pagingControll {
+    display: flex;
+    justify-content: center;
+}
+
+.paging_button1 {
+    margin: 6px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    background: #9e5fd1;
+    padding: 4px 8px;
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+.paging_button2 {
+    margin: 6px;
+    font-size: 20px;
+    width: 30px;
+    font-family: 'Raleway', sans-serif;
+    background: #5b3977;
+    padding: 4px 8px;
+    border-radius: 20px;
+    border-width: 2px;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+.bg {
+    background-image: url('../image/darkwall.jpg');
+    height: 605px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.regForm {
+    background-image: url('../image/list.png');
+    width: 450px;
+    height: 450px;
+    background-size: 550px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.field {
+    margin: 8px;
+    height: 22px;
+    width: 200px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#butLog {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: #7100CF;
+    padding: 0.5em 4em;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+#butLog:hover { background: #C177FF; } 
+#butLog:active { background: #6508b1; } 
+
+
+#butReg {
+    border: 0px;
+    font-size: 16px;
+    background: rgb(0,0,0,0);
+    text-decoration: underline;
+    color: #3e0070;
+    font-family: 'Raleway', sans-serif;
+}
+#butReg:hover {
+    color: #6600b9;
+    text-decoration: none;
+ } 
+#butReg:active {
+    color: #34005f;
+    text-decoration: none;
+ } 
+
+.errMes {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 4px;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+
+
